@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>class-12-practice</title>
+  </head>
+  <style>
+    .child {
+      border: 1px solid black;
+      height: 20vh;
+      width: 20vw;
+    }
+    .container {
+      display: flex;
+      border: 2px solid red;
+      flex-direction: column;
+      /* align-items: center; */
+      /* align-items: start; */
+      /* align-items: end; */
+
+      flex-direction: row;
+      /* justify-content: space-between; */
+      justify-content: space-evenly;
+      /* justify-content: space-around; */
+    }
+
+    .child-3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="child-1 child">1</div>
+      <div class="child-2 child">2</div>
+      <div class="child-3 child">3</div>
+      <div class="child-4 child">4</div>
+    </div>
+  </body>
+</html>
